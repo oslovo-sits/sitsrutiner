@@ -1,0 +1,26 @@
+site_name: Rutiner for SITS
+
+nav:
+    - For lærere:
+        - FOV:
+            - Vedtak om særskilt språkopplæring: evision/FOV/s_sp_vedtak.md
+  
+  
+theme:
+    language: nb 
+    name: material
+    features:
+        - navigation.tabs
+        - navigation.sections
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      
+      
+  
+extra:
+  generator: false
