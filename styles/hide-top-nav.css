@@ -1,0 +1,9 @@
+/* Hide top navigation tabs */
+.md-tabs {
+  display: none;
+}
+
+/* Optional: remove spacing where tabs used to be */
+.md-main {
+  padding-top: 0;
+}
